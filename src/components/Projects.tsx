@@ -17,11 +17,13 @@ const Projects = () => {
           description="A webapp with realtime chat capability built using ReactJS, Express,
             and MongoDB. The webapp also uses TypeScript and ReduxJS."
           thumbnail={EtherealChat}
+          demoUrl="https://kristianespina.github.io/ethereal-chat/#/"
         />
         <ProjectItem
           title="AlchemyCP"
           description="A webapp built on Django for managing Ragnarok Online accounts for rAthena-based private servers"
           thumbnail={AlchemyCP}
+          demoUrl={"https://github.com/kristianespina/AlchemyCP"}
         />
       </Flex>
     </Container>

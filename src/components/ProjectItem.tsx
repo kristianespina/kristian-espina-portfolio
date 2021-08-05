@@ -6,8 +6,9 @@ type Props = {
   title: string;
   description: string;
   thumbnail: string;
+  demoUrl: string;
 };
-const ProjectItem = ({ title, description, thumbnail }: Props) => {
+const ProjectItem = ({ title, description, thumbnail, demoUrl }: Props) => {
   return (
     <Flex
       direction={["column", "column", "row", "row"]}
@@ -34,15 +35,17 @@ const ProjectItem = ({ title, description, thumbnail }: Props) => {
             {title}
           </Text>
           <Text>{description}</Text>
-          <Button
-            mt={8}
-            bgColor="#F4B73F"
-            color="white"
-            size="sm"
-            _hover={{ bgColor: "#D5A548" }}
-          >
-            View Demo
-          </Button>
+          <a href={demoUrl}>
+            <Button
+              mt={8}
+              bgColor="#F4B73F"
+              color="white"
+              size="sm"
+              _hover={{ bgColor: "#D5A548" }}
+            >
+              View Demo
+            </Button>
+          </a>
         </Container>
       </Flex>
     </Flex>
