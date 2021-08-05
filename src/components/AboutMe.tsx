@@ -15,7 +15,7 @@ const AboutMe = () => {
           alignContent="center"
           justifyContent="center"
         >
-          <Container minW="467px">
+          <Container minW={["full", "full", "480px", "480px"]}>
             <Text fontSize={24} fontWeight="bold" pb={29}>
               About Me
             </Text>
@@ -35,12 +35,7 @@ const AboutMe = () => {
             </Text>
           </Container>
         </Flex>
-        <Lottie
-          loop
-          animationData={Chemist}
-          play
-          style={{ width: 627, height: 470 }}
-        />
+        <Lottie loop animationData={Chemist} play />
       </Flex>
     </Container>
   );
