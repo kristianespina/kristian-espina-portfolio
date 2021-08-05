@@ -36,8 +36,12 @@ const HeaderContent = () => {
             </Text>
 
             <Flex direction="row" pt={4} gridGap={4}>
-              <Image src={Github} cursor="pointer" />
-              <Image src={LinkedIn} cursor="pointer" />
+              <a href="https://github.com/kristianespina">
+                <Image src={Github} cursor="pointer" />
+              </a>
+              <a href="https://www.linkedin.com/in/kristian-espina/">
+                <Image src={LinkedIn} cursor="pointer" />
+              </a>
             </Flex>
           </Container>
         </Flex>

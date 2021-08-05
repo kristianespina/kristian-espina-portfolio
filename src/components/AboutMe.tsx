@@ -30,7 +30,8 @@ const AboutMe = () => {
               recently:
             </Text>
             <Text fontSize={16} fontWeight="regular" pb={26}>
-              JavaScript (ES 6+) Node.js React Python
+              TypeScript, ReactJS, WebSockets, Python, Flask, and JavaScript
+              ES6+
             </Text>
           </Container>
         </Flex>

@@ -6,11 +6,11 @@ const HeaderMenu = () => {
     <Flex direction="row" color="white" py={4}>
       <Text fontWeight="bold">kristian.ninja</Text>
       <Spacer />
-      <Flex direction="row" gridGap={3}>
+      {/* <Flex direction="row" gridGap={3}>
         <Text fontWeight="bold">About</Text>
         <Text fontWeight="bold">Projects</Text>
         <Text fontWeight="bold">Contact</Text>
-      </Flex>
+      </Flex> */}
     </Flex>
   );
 };
