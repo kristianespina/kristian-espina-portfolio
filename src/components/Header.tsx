@@ -7,7 +7,7 @@ import HeaderContent from "./HeaderContent";
 const Header = () => {
   return (
     <Flex bgColor="#292C3A" minH="500px" pb={4}>
-      <Container maxW="container.lg">
+      <Container maxW="container.lg" px={8}>
         <HeaderMenu />
         <HeaderContent />
       </Container>
